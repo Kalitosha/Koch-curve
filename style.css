@@ -1,0 +1,48 @@
+﻿body {
+    background-color:#e8e8e8;
+    padding: 0;
+    margin:0;
+}
+
+.space {
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   width:80%; 
+   height:100vh;
+   margin:5vh auto;
+   padding:0px; 
+}
+
+#canv{
+    min-width:300px;
+    min-height:300px;
+    box-shadow: 0 0 10px 0px black;  
+    margin:-10vh 0px 0px;
+    padding:0px; 
+    width:80%; 
+    height:80vh;
+    background-color:white; 
+}
+
+#myCanvas{
+    padding:0px; 
+    margin:0px; 
+}
+
+form {
+    min-width:300px;
+    width:80%; 
+    height:21px; 
+    margin:0px; 
+    text-align:center; 
+    background-color:#e8e8e8;
+}
+
+#range {
+    text-align:center; 
+    padding:0px; 
+    margin:0px; 
+    width:63vw; 
+    background-color: #ebebeb;
+}

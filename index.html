@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href=".\style.css">
+    <title>KochCurve</title>
+</head>
+<body onload="Draw()">
+	<div class="space">
+		<form>
+		    <input type="range" name="points" min="1" max="7" onchange="Draw()" id="range">
+		</form>
+		<div id="canv">
+			<canvas id="myCanvas">
+			    Your browser doesn't support the canvas element.
+			</canvas>
+		</div>
+	</div>
+<script type="text/javascript" src="KochCurve.js"></script>
+</body>
+</html>
